@@ -74,7 +74,6 @@ It received a final grade of **15/20**.
 ```bash
 # Clone the repository
 git clone git@github.com:mimicarreira13/ecoloop.git
-cd src
 
 # Install dependencies
 npm install
