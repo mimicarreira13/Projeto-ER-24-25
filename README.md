@@ -6,6 +6,14 @@ O **EcoLoop** é um sistema informático desenvolvido por um grupo de 4 estudant
 
 ---
 
+## 🌐 Aceder ao Protótipo
+
+O protótipo está disponível online através do seguinte link:
+
+👉 [https://ecoloop-vz7r.onrender.com](https://ecoloop-vz7r.onrender.com)
+
+---
+
 ## 🚀 Funcionalidades principais
 
 - 🔒 **Anonimato garantido** como proposta através de autenticação com criptografia de chave pública e privada.
@@ -61,7 +69,7 @@ Este projeto foi desenvolvido por um grupo de **4 alunos** no âmbito da unidade
 
 ---
 
-## 🧾 Requisitos de Instalação (Exemplo)
+## 🧾 Requisitos de Instalação
 
 ```bash
 # Clonar o repositório
@@ -95,7 +103,6 @@ Abaixo estão algumas imagens ilustrativas do protótipo desenvolvido (disponív
 
 ### Área de Conta e Favoritos
 ![Gestão de Conta](./images/gestao_conta.png)
-
 
 ---
 
