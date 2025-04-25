@@ -1,114 +1,114 @@
-# ♻️ EcoLoop – Plataforma de Reutilização Sustentável e Anónima
+# ♻️ EcoLoop – Sustainable and Anonymous Resource Reuse Platform
 
-> **Projeto de Engenharia de Requisitos – LEI 2024/2025**
+> **Requirements Engineering Project – LEI 2024/2025**
 
-O **EcoLoop** é um sistema informático desenvolvido por um grupo de 4 estudantes com o objetivo de promover a **reutilização de bens físicos** de forma **anónima**, **segura** e **sustentável**. Idealizado como resposta ao crescente desperdício de recursos e às preocupações com a privacidade dos utilizadores, o sistema permite a troca, doação e venda de itens sem a necessidade de identificação pessoal.
+**EcoLoop** is an information system developed by a team of 4 students with the goal of promoting the **reuse of physical goods** in an **anonymous**, **secure**, and **sustainable** way. It was designed in response to increasing concerns about resource waste and user privacy, enabling users to exchange, donate, or sell items without providing personal identification.
 
 ---
 
-## 🌐 Aceder ao Protótipo
+## 🌐 Access the Prototype
 
-O protótipo está disponível online através do seguinte link:
-
+You can view the live prototype here:  
 👉 [https://ecoloop-vz7r.onrender.com](https://ecoloop-vz7r.onrender.com)
 
 ---
 
-## 🚀 Funcionalidades principais
+## 🚀 Main Features
 
-- 🔒 **Anonimato garantido** como proposta através de autenticação com criptografia de chave pública e privada.
-- 📦 **Publicação de itens** com descrição, foto e localização aproximada.
-- 🖘️ **Pesquisa geolocalizada** por itens próximos, sem revelar a localização exata até a transação ser aceite.
-- 🪹 **Transações seguras** com geração de tokens únicos de confirmação.
-- 🌱 **Métricas ambientais** para monitorizar o impacto positivo das reutilizações.
-- ⭐ **Avaliações anónimas** com sistema de reputação baseado em transações reais.
-- 📊 **Relatórios acessíveis** para entidades externas aprovadas, com dados agregados sobre impacto ambiental.
+- 🔒 **Guaranteed anonymity**, conceptually based on public/private key encryption
+- 📦 **Item listing** with description, photo, and approximate location
+- 🖘️ **Geolocated search** for items nearby, with exact location hidden until transaction is accepted
+- 🪹 **Secure transactions** through unique confirmation tokens
+- 🌱 **Environmental impact metrics** to track the positive effect of reuse
+- ⭐ **Anonymous ratings** based on validated transactions
+- 📊 **Access-controlled reports** for approved external entities
 
-> **Nota:** Como se trata de um protótipo, funcionalidades como a autenticação por encriptação, transações seguras, avaliações e uso de blockchain ainda não se encontram implementadas. Estas estão apenas representadas a nível conceptual.
+> **Note:** As this is a prototype, features such as encryption-based authentication, transaction confirmation, ratings, and blockchain integration are not implemented but conceptually outlined.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 - **Frontend:** [React](https://reactjs.org/)
-- **Backend & Base de Dados:** [MongoDB](https://www.mongodb.com/) com [Mongoose](https://mongoosejs.com/)
+- **Backend & Database:** [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/)
 
 ---
 
-## ✅ Requisitos Prioritários Implementados
+## ✅ Key Implemented Requirements
 
-Durante o desenvolvimento do protótipo, focámo-nos nos seguintes requisitos principais:
+We focused on implementing the following key requirements:
 
-- Geração automática de username anónimo
-- Restrição à criação de múltiplas contas (baseada em NIF)
-- Publicação de produtos com título, categoria e localização
-- Pesquisa de produtos com filtro por concelho
-- Ordenação dos resultados por proximidade geográfica
-- Possibilidade de guardar publicações favoritas
-- Monitorização da quantidade de produtos reutilizados
-- Aprovação de empresas registadas por um administrador
+- Automatic generation of anonymous usernames
+- Restriction to one account per user (based on NIF)
+- Product listing with title, category, and location
+- Search functionality with filters by district
+- Sorting results by geographic proximity
+- Ability to save favorite posts
+- Monitoring of reused item quantities
+- Administrator approval flow for company accounts
 
-Cada um destes requisitos foi documentado e implementado com base em critérios de aceitação específicos, garantindo clareza e consistência no comportamento esperado do sistema.
-
----
-
-## 🧪 Validação e Testes
-
-Os requisitos implementados foram validados com base em critérios de aceitação objetivos, como:
-
-- Geração única de usernames
-- Validação de campos obrigatórios nas publicações
-- Filtros e ordenação funcional nos resultados de pesquisa
-- Persistência e recuperação de publicações favoritas
+Each requirement was developed based on defined acceptance criteria, ensuring clarity and consistent behavior.
 
 ---
 
-## 🥑 Equipa
+## 🧪 Validation and Testing
 
-Este projeto foi desenvolvido por um grupo de **4 alunos** no âmbito da unidade curricular de **Engenharia de Requisitos** do curso de **Licenciatura em Engenharia Informática (LEI)**, ano letivo 2024/2025 e foi atribuída **nota 15**.
+Implemented features were validated against objective acceptance criteria, including:
+
+- Unique username generation
+- Required field validation in listings
+- Filter and sorting logic for search results
+- Persistence of favorite items
 
 ---
 
-## 🧾 Requisitos de Instalação
+## 🥑 Team
+
+This project was developed by a group of **4 students** as part of the **Requirements Engineering** course in the **Bachelor's in Computer Engineering (LEI)** at the **University of Madeira**, academic year 2024/2025.  
+It received a final grade of **15/20**.
+
+---
+
+## 🧾 Installation Instructions
 
 ```bash
-# Clonar o repositório
-git clone git@github.com:mimicarreira13/Projeto-ER-24-25.git
+# Clone the repository
+git clone git@github.com:mimicarreira13/ecoloop.git
 cd src
 
-# Instalar dependências
+# Install dependencies
 npm install
 
-# Iniciar o projeto
+# Start the project
 npm start
 ```
 
 ---
 
-## 📌 Estado atual
+## 📌 Current Status
 
-O projeto encontra-se numa fase de **protótipo funcional**, com ênfase nos requisitos do sistema e prova de conceito. Algumas funcionalidades avançadas como sistema de recompensa, autenticação criptográfica e integração com blockchain estão apenas representadas em nível conceptual ou em fase de planeamento.
-
----
-
-## 📸 Exemplos Visuais
-
-Abaixo estão algumas imagens ilustrativas do protótipo desenvolvido (disponíveis nos anexos do relatório final):
-
-### Página de Publicação de Itens
-![Publicação de Itens](./images/publicacao.png)
-
-### Pesquisa por Localização
-![Pesquisa Local](./images/pesquisa_local.png)
-
-### Área de Conta e Favoritos
-![Gestão de Conta](./images/gestao_conta.png)
+This project is currently in a **functional prototype** phase, focusing on system requirements and concept validation. Some advanced features like rewards, cryptographic authentication, and blockchain integration are still in the planning stage or outlined only at a conceptual level.
 
 ---
 
-## 📄 Licença
+## 📸 Visual Examples
 
-Este projeto é apenas para fins educacionais e não possui uma licença de uso comercial neste momento.
+Below are some UI screenshots from the developed prototype (featured in the final report):
+
+### Item Listing Page
+![Item Listing](./images/publicacao.png)
+
+### Location-Based Search
+![Location Search](./images/pesquisa_local.png)
+
+### Account Area and Favorites
+![Account Management](./images/gestao_conta.png)
+
+---
+
+## 📄 License
+
+This project is for educational purposes only and is not licensed for commercial use.
 
 ---
 
