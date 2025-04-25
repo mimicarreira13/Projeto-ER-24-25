@@ -6,6 +6,22 @@
 
 ---
 
+## 🥑 Team
+
+This project was developed by a group of **4 students** as part of the **Requirements Engineering** course in the **Bachelor's in Computer Engineering (LEI)** at the **University of Madeira**, academic year 2024/2025.  
+It received a final grade of **15/20**.
+
+Meet the team behind the platform:
+
+- [Milena Carreira](https://github.com/mimicarreira13)
+- [Tânia Vieira](https://github.com/elisagv)
+- [Leandro Hontman](https://github.com/leo152004)
+- [Lúcia Pedra](https://github.com/luciacheila)
+
+We worked together to design a system focused on sustainability, privacy, and usability. 🌍💡
+
+---
+
 ## 🌐 Access the Prototype
 
 You can view the live prototype here:  
@@ -59,13 +75,6 @@ Implemented features were validated against objective acceptance criteria, inclu
 - Required field validation in listings
 - Filter and sorting logic for search results
 - Persistence of favorite items
-
----
-
-## 🥑 Team
-
-This project was developed by a group of **4 students** as part of the **Requirements Engineering** course in the **Bachelor's in Computer Engineering (LEI)** at the **University of Madeira**, academic year 2024/2025.  
-It received a final grade of **15/20**.
 
 ---
 
