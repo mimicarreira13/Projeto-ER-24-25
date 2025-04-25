@@ -15,7 +15,7 @@ Meet the team behind the platform:
 
 - [Milena Carreira](https://github.com/mimicarreira13)
 - [Tânia Vieira](https://github.com/elisagv)
-- [Leandro Hontman](https://github.com/leo152004)
+- [Leandro Hontman](https://github.com/leo152004) 
 - [Lúcia Pedra](https://github.com/luciacheila)
 
 We worked together to design a system focused on sustainability, privacy, and usability. 🌍💡
