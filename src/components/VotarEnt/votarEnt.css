@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+    font-family: 'Mulish';
+}
+
+.custom-table {
+    margin-top: 50px !important;
+    table-layout: fixed; /* Garante que as larguras definidas sejam aplicadas */
+    margin: 10px auto; /* Centraliza na página */
+    width: 70% !important; /* Largura total da tabela */
+    border-collapse: separate; /* Garante que as bordas não se fundam */
+    border-spacing: 0 15px; /* Adiciona espaço entre as linhas */
+    background-color: #fff; /* Cor de fundo da tabela */
+    padding: 20px; /* Adiciona padding interno */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+}
+
+.custom-table th, .custom-table td {
+    text-align: center;
+    padding: 10px;
+    border: solid 1px #196271;
+    text-align: center !important; /* Centraliza o texto */
+}
+
+.custom-table th {
+    background-color: #196271;
+    color: white;
+}
+
+.custom-table tr {
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.btn-primary {
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 5px; /* Adiciona espaçamento acima */
+    height: auto;
+    margin-right: 100px !important;
+    margin-left: -95px !important;
+    font-weight: bold;
+}
+
+.titu{
+    color: #08252B;
+    margin-top: 12% !important;
+    font-weight: bold;
+}
+
+.frase_votacao{
+    color: black;
+    font-size: 20px;
+}

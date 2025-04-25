@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+  font-family: 'Mulish';
+}
+
+.div_texto{
+  margin-top: 25%;
+  margin-bottom: 25%;
+  color: #265D69;
+}
+
+hr{
+  color: white;
+  margin-bottom: 35px !important;
+}
+
+
+.titulo_admin{
+
+  color: #08252B;
+  text-align: center;
+  margin-top: 185px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-icon {
+  margin-top: 12% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #16A1B6;
+  color: white;
+  border-radius: 5%;
+  width: 100%; /* Agora o botão se ajustará ao tamanho da coluna */
+  height: auto; /* Remova a altura fixa para evitar cortes */
+  padding: 125px; /* Ajuste conforme necessário */
+  margin: 5px 5px; /* Centralize dentro do container e adicione espaço entre os botões */
+  text-decoration: none;
+  transition: transform 0.75s, background-color 0.75s;
+  margin-left: 50% !important;
+}
+  
+  .btn-icon i {
+    font-size: 9em; /* Ajuste o tamanho do ícone conforme necessário */
+    margin-bottom: 15px; /* Espaçamento entre o ícone e o texto */
+  }
+  
+  .btn-icon:hover {
+    background-color: #196271 !important;
+    transform: scale(1); /* Ajuste conforme necessário */
+  }
+
+  .btn-icon span {
+    font-size: 1.5em; /* Ajuste o tamanho conforme necessário */
+    white-space: nowrap; /* Impede a quebra de linha no texto */
+  }

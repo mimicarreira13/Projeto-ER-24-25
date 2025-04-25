@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+    font-family: 'Mulish';
+}
+
+table#myTable th, table#myTable td {
+    text-align: center;
+    padding: 10px;
+    border: solid 1px #196271;
+    text-align: center !important; /* Centraliza o texto */
+}
+
+.dataTables_wrapper {
+    width: auto;
+    margin: 0 auto;
+}
+
+/* Ajuste do botão */
+button.edit-btn, button.delete-btn, button.ativar-btn , button.deactivate-btn {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 5px; /* Adiciona espaçamento acima */
+    width: 25%; /* Ajusta a largura automaticamente */
+    height: auto;
+    margin-right: 100px !important;
+    margin-left: -80px !important;
+    display: inline-block; /* Coloca os botões lado a lado */
+    
+}
+
+button.edit-btn:hover, button.delete-btn:hover , button.ativar-btn:hover, button.deactivate-btn:hover {
+    background-color: #196271;
+}
+
+
+/* Opcional: Ajusta a tabela inteira */
+table#myTable {
+    margin-top: 50px !important;
+    table-layout: fixed; /* Garante que as larguras definidas sejam aplicadas */
+    margin: 10px auto; /* Centraliza na página */
+    width: 70% !important; /* Largura total da tabela */
+    border-collapse: separate; /* Garante que as bordas não se fundam */
+    border-spacing: 0 15px; /* Adiciona espaço entre as linhas */
+    background-color: #fff; /* Cor de fundo da tabela */
+    padding: 20px; /* Adiciona padding interno */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+}
+
+
+
+/* Centraliza a barra de pesquisa */
+div.dataTables_filter {
+    margin: 20px 0; /* Adiciona margem acima e abaixo */
+    text-align: center; /* Centraliza o texto */
+}
+
+div.dataTables_wrapper {
+    display: flex;
+    flex-direction: column; /* Alinha os filhos em coluna */
+    width: 100%;            /* Garante que o wrapper ocupe toda a largura */
+    margin: 0;              /* Remove qualquer margem extra */
+    position: relative;     /* Permite posicionar elementos relativos ao wrapper */
+}
+
+div.dataTables_paginate {
+    position: absolute;     /* Permite posicionar no canto do container */
+    bottom: 0;              /* Fixa ao fundo */
+    right: 0;               /* Fixa à direita */
+    display: flex;          /* Mantém os itens alinhados horizontalmente */
+    align-items: center;    /* Centraliza os itens verticalmente */
+    margin: 10px;           /* Adiciona espaçamento interno */
+}
+
+div.dataTables_paginate .paginate_button {
+    margin-left: 5px;       /* Adiciona espaçamento entre os botões */
+    padding: 10px 15px;     /* Botões maiores */
+    background-color: #196271;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.dataTables_paginate .paginate_button:hover {
+    background-color: #154d4f;
+}
+
+div.dataTables_paginate .paginate_button:active {
+    background-color: #1c7878;
+}
+
+
+/* Estilo para as células da tabela */
+table#myTable th, table#myTable td {
+    padding: 10px; /* Adiciona padding interno */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilo para as linhas da tabela */
+table#myTable tr {
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+/* Estilo para a barra de cabeçalho */
+.barra {
+    background-color: #196271;
+    color: white;
+}
+
+.titulo_para_utilizador {
+    text-align: center;
+    margin-top: 200px;
+    color: #08252B;
+    margin-right: 11.5% !important;
+    font-weight: bold;
+}
+
+.btn-pag{
+    width: 15%;
+    margin-right: 15% !important;
+    align-items: center;
+    text-align: center;
+    margin-left: 15% !important;
+}
+
+.custom-confirm-button {
+    background-color: #196271;
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remover borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro */
+    width: 100%; /* Largura total */
+  }
+  
+  .custom-confirm-button:hover {
+    background-color: #154d4f;
+  }

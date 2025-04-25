@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+    font-family: 'Mulish';
+}
+
+.container-perfil{
+    margin-top: 10%;
+}
+
+.entidade{
+    font-size: 45px;
+}

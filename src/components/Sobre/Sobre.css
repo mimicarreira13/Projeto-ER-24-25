@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+    font-family: 'Mulish';
+}
+
+.sobre{
+    
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.sobre p{
+    text-align: justify;
+}

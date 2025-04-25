@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+    font-family: 'Mulish';
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #08252B;
+    display: flex;
+    justify-content: space-between; /* Space between logo and content */
+    align-items: center;
+    padding: 0px 20px;
+    color: white;
+    z-index: 1000;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    position: absolute;
+    height: 150px; /* Increase the size of the logo */
+    top: 50%;
+    transform: translateY(-50%); /* Center the logo vertically */
+}
+
+
+.navbar-title {
+    font-size: 24px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.navbar-right button {
+    margin-top: 1px;
+    margin-right: 110px;
+    width: 140px;
+    background-color: rgba(22, 161, 182, 1); /* Button background color */
+    color: white; /* Button text color */
+    border: #08252B;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar-right button:hover {
+    background-color: rgba(22, 161, 182, 1); /* Button hover background color */
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 255px;
+    flex: 1; /* Allow the content to take up available space */
+    flex-grow: 1; /* Permite que a navbar-content ocupe o espaço disponível */
+    flex-shrink: 0; /* Permite que a navbar-content ocupe o espaço disponível */
+    width: 30%;
+    font-weight: bold;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Space between the icon and button */
+    cursor: pointer;
+}
+
+.user-icon {
+    color: white;
+    font-size: 30px; /* Adjust icon size */
+    margin-right: -550px;
+}
+
+.icon {
+    color: white;
+    font-size: 30px; /* Adjust icon size */
+}
+
+.notifications-dropdown {
+    position: absolute;
+    width:400px;
+    top: 75px; /* Adjust based on your navbar height */
+    right: 350px; /* Adjust based on your layout */
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1001; /* Ensure it appears above other elements */
+}
+
+.notification-item {
+    padding: 20px 20px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: inherit; /* Ensure text color is inherited */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.notification-item.unread {
+    font-weight: bold;
+}
+
+.notification-item:hover {
+    background-color: #f0f0f0; /* Adjust the color to your preference */
+}
+
+.blue-dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(22, 161, 182, 1);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.notification-item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+}

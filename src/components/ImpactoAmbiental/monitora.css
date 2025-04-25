@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+    font-family: 'Mulish';
+}
+
+.titulo_moni{
+    font-weight: bold;
+    color: #08252B;
+    margin-top: 150px !important;
+    margin-bottom: 10px;
+}
+
+.texto{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 5%;
+
+}
+
+.beneficios{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #08252B;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.texto_beneficios{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 6%;
+}
+
+.container_beneficios{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.monitora_coisas{
+    color: #08252B;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.table{
+    table-layout: fixed; /* Garante que as larguras definidas sejam aplicadas */
+    margin: 5px auto; /* Centraliza na página */
+    width: 70% !important; /* Largura total da tabela */
+    border-collapse: separate; /* Garante que as bordas não se fundam */
+    border-spacing: 0 15px; /* Adiciona espaço entre as linhas */
+    background-color: #fff; /* Cor de fundo da tabela */
+    padding: 20px; /* Adiciona padding interno */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 10px;
+    border: solid 1px #196271;
+    text-align: center !important; /* Centraliza o texto */
+}
+
+.table th {
+    background-color: #196271;
+    color: white;
+}
+
+.table tr {
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.texto_totais{
+    font-size: 20px;
+}
+
+.titulo_ben{
+    font-weight: bold;
+}
+
+.informacao_o{
+    margin-right: 43.5%;
+    margin-top: 2.3%;
+}

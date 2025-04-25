@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+    font-family: 'Mulish';
+}
+
+nav{
+  width: 100% ;
+  height: 100px;
+  background-color: #08252B;
+  color:white;
+  margin-top: 0px !important;
+}
+
+.light-mode hr {
+    border-top: 3px solid black;
+}
+
+nav {
+    text-align: center;
+    margin-top: 30px;
+}
+  
+  nav a {
+    margin: 30px; 
+    text-decoration: none;
+    color: inherit; /* Para herdar a cor do modo atual */
+  }
+  
+nav button {
+  margin-left: 500px;
+  padding: 5px 10px;
+  cursor: pointer;
+  }
+
+hr {
+    margin: 75px 0;
+    border: 0;
+    border-top: 3px solid #fff;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .titulo{
+color: #196271;
+}
+
+.dark-mode button{
+  background-color: #196271;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+.cards{
+  margin-top: 15%;
+}
+
+/* Estilos básicos para o card */
+.card {
+width: 18rem;
+border: 1px solid #ddd; /* Borda leve */
+border-radius: 8px; /* Bordas arredondadas */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+overflow: hidden; /* Garante que nada "vaze" */
+transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+}
+
+/* Efeito ao passar o mouse sobre o card */
+.card:hover {
+transform: translateY(-10px); /* Eleva o card */
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+/* Estilo para o título */
+.card-title {
+font-size: 1.25rem;
+font-weight: bold;
+margin-bottom: 0.75rem;
+color: #333; /* Cor do texto */
+}
+
+/* Estilo para o texto */
+.card-text {
+font-size: 1rem;
+color: #555; /* Tom de cinza */
+margin-bottom: 1.25rem;
+line-height: 1.5; /* Melhor espaçamento entre linhas */
+}
+
+/* Estilo para o botão */
+.btn-saber-mais{
+
+ 
+ 
+ }
+
+
+/* Efeito ao passar o mouse sobre o botão */
+.btn-saber-mais:hover {
+background-color:#158da0; /* Tom mais escuro ao passar o mouse */
+transform: scale(1.05); /* Leve aumento */
+}
+
+
+.video{
+margin-left: 18%;
+margin-right: 18%;
+}

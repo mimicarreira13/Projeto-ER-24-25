@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+    font-family: 'Mulish';
+}
+
+.container_editUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-right: 20% !important;
+}
+
+.form_group_editUser {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    text-align: center !important;
+    margin-left: 15% !important;
+}
+
+.label_editar {
+    color: #08252B;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left !important;
+}
+
+.input_editar {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.botao_editar {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #196271;
+    color: white;
+    cursor: pointer;
+    margin-left: 45% !important;
+    width: 40%;
+}
+
+button:hover {
+    background-color: #154d4f;    /* Cor de fundo ao passar o mouse */
+}
+
+.titulo_EDit{
+    color: #08252B;
+    text-align: center;
+    margin-top: 4%;
+    width: 100%;
+    margin-left: 20% !important;
+    font-weight: bold;
+    
+}
