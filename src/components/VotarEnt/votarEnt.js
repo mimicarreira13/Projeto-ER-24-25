@@ -17,7 +17,7 @@ const VotarEnt = () => {
   useEffect(() => {
     const fetchEntities = async () => {
       try {
-        const response = await axios.get('http://localhost:4000/users?accountType=entidade&status=pendente');
+        const response = await axios.get('/users?accountType=entidade&status=pendente');
         console.log('Dados recebidos:', response.data); // Adicione este log
         const filteredEntities = response.data.filter(entity => entity.status === 'pendente');
         setEntities(filteredEntities);
@@ -31,7 +31,7 @@ const VotarEnt = () => {
 
   const handleVote = async (entityId) => {
     try {
-      const response = await axios.post(`http://localhost:4000/entities/${entityId}/vote`);
+      const response = await axios.post(`/entities/${entityId}/vote`);
       console.log('Voto registrado com sucesso:', response.data);
 
       Swal.fire({

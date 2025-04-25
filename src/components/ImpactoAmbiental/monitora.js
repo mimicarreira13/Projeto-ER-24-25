@@ -12,7 +12,7 @@ const Monitora = () => {
   const quantidadeProdutos = async () => {
     try {
       console.log('Chamando API para buscar os produtos...');
-      const response = await axios.get('http://localhost:4000/products/count-by-category');
+      const response = await axios.get('/products/count-by-category');
       const productCounts = response.data;
       console.log('Dados recebidos:', productCounts);
   

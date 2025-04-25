@@ -128,7 +128,7 @@ const UserTable = () => {
       // Lógica para apagar o usuário
       console.log('Apagar usuário com ID:', id);
       // Fazer uma requisição DELETE para o servidor
-      fetch(`http://localhost:4000/users/${id}`, {
+      fetch(`/users/${id}`, {
         method: 'DELETE',
       })
         .then(response => {

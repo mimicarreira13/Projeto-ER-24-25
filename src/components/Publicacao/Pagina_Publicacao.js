@@ -20,7 +20,7 @@ const PublicationDetails = () => {
     useEffect(() => {
         const fetchUserDetails = async () => {
             try {
-                const response = await fetch(`http://localhost:4000/users/${item.authorId}`);
+                const response = await fetch(`/users/${item.authorId}`);
                 const data = await response.json();
                 setUsername(data.username);
             } catch (error) {

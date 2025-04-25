@@ -11,7 +11,7 @@ function EditUser() {
 
   useEffect(() => {
     // Fetch user data by ID
-    fetch(`http://localhost:4000/users/${id}`)
+    fetch(`/users/${id}`)
       .then(response => response.json())
       .then(data => setUser(data))
       .catch(error => console.error('Error fetching user:', error));
@@ -19,7 +19,7 @@ function EditUser() {
 
   const handleSave = () => {
     // Lógica para salvar as alterações do usuário
-    fetch(`http://localhost:4000/users/${id}`, {
+    fetch(`/users/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

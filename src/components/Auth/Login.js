@@ -23,7 +23,7 @@ function Login({ onLogin }) {
         event.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:4000/login', {
+            const response = await fetch('/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

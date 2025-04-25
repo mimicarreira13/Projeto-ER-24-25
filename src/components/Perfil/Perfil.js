@@ -43,7 +43,7 @@ const Perfil = ({ username, accountType, status }) => {
   useEffect(() => {
     const fetchAuthorId = async () => {
       try {
-        const response = await axios.get(`http://localhost:4000/users?username=${username}`);
+        const response = await axios.get(`/users?username=${username}`);
   
         if (response.data && response.data.length > 0) {
           // Assume que o primeiro usuário da lista é o que você está procurando
@@ -72,7 +72,7 @@ const Perfil = ({ username, accountType, status }) => {
     const fetchUserPosts = async () => {
       setLoading(true);
       try {
-        const response = await axios.get(`http://localhost:4000/posts/${authorId}`);
+        const response = await axios.get(`/posts/${authorId}`);
         console.log("Posts carregados:", response.data);
         setUserPosts(response.data); // Atualiza o estado com os posts recebidos
       } catch (err) {

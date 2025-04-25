@@ -19,7 +19,7 @@ const GereEnt = () => {
   const fetchEntitiesWithVotePercentage = async () => {
     try {
       console.log('Chamando API para buscar entidades...');
-      const response = await axios.get('http://localhost:4000/entities/vote-percentage');
+      const response = await axios.get('/entities/vote-percentage');
       const entitiesAbove30Percent = response.data;
       console.log('Dados recebidos:', entitiesAbove30Percent);
       if (entitiesAbove30Percent.length > 0) {
@@ -49,7 +49,7 @@ const GereEnt = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('http://localhost:4000/users?accountType=entidade');
+        const response = await axios.get('/users?accountType=entidade');
         console.log('Dados recebidos:', response.data); // Log dos dados recebidos
         setUsers(response.data);
       } catch (error) {
@@ -167,7 +167,7 @@ const GereEnt = () => {
 
   const handleActivate = (id) => {
     console.log('Ativar usuário com ID:', id);
-    fetch(`http://localhost:4000/users/${id}/activate`, {
+    fetch(`/users/${id}/activate`, {
       method: 'PUT',
     })
       .then(response => {
@@ -203,7 +203,7 @@ const GereEnt = () => {
 
   const handleDeactivateUser = async (id) => {
     try {
-      const response = await fetch(`http://localhost:4000/users/${id}/pendente`, {
+      const response = await fetch(`/users/${id}/pendente`, {
         method: 'PUT',
       });
   

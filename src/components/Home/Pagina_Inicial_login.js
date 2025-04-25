@@ -14,7 +14,7 @@ const HomePage_Login = ({ username }) => {
     useEffect(() => {
         const fetchItems = async () => {
             try {
-                const response = await fetch('http://localhost:4000/items');
+                const response = await fetch('/items');
                 const data = await response.json();
                 setItems(data);
             } catch (error) {

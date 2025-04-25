@@ -58,7 +58,7 @@ function CreateAccount({ onAccountCreated }) {
         const accountType = isEntity ? "entidade" : "normal";
 
         try {
-            const response = await fetch('http://localhost:4000/create-account', {
+            const response = await fetch('/create-account', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
